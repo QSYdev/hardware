@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# KY-032-RESCUE-placa-pps
+#
+DEF KY-032-RESCUE-placa-pps U 0 40 Y Y 1 F N
+F0 "U" 150 -200 60 H V C CNN
+F1 "KY-032-RESCUE-placa-pps" -50 200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -250 150 200 -150 0 1 0 N
+X EN ~ 400 50 200 L 50 50 1 1 B
+X GND ~ -450 -50 200 R 50 50 1 1 B
+X OUT ~ 400 -50 200 L 50 50 1 1 B
+X VCC ~ -450 50 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
